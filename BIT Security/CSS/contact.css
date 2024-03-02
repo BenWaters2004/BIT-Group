@@ -1,0 +1,93 @@
+.contactForm {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.text {
+    flex: 1;
+    max-width: 40%;
+    margin-bottom: 250px;
+}
+.text h2 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 42px;
+    color: var(--accent);
+}
+.text h2 span {
+    color: var(--main);
+}
+.text p {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+.contDetails {
+    color: var(--accent);
+}
+.address {
+    color: var(--text);
+}
+
+
+.form {
+    flex: 1;
+    margin-left: 12%;
+}
+.contTitle {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--accent);
+}
+.contSubText {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 38px;
+    color: var(--main);
+    border-bottom: 1px solid #E8E8E8;
+}
+.form p:not(.contTitle, .contSubText, .conditions) {
+    color: var(--accent);font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 38px;
+
+}
+.form p span:not(.contTitle, .contSubText, .conditions){
+    color: var(--main);
+}
+.conditions {
+    color: var(--text);
+}
+#box {
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+}
+.form input {
+    border: 2px solid var(--main);
+    padding: 5px;
+}
+#email, #msg {
+    width: 340px;
+}
+button {
+    background-color: var(--main);
+    border-radius: 60px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 35%;
+    margin-top: 20px;
+}

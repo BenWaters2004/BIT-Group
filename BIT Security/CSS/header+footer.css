@@ -1,0 +1,222 @@
+.header {
+    width: 100%;
+    height: 130px;
+    background-color: var(--accent);
+    top: 0%;
+    font-family: "Obvia Narrow", sans-serif;
+    position: fixed;
+    z-index: 1000;
+}
+
+.header h3 {
+    color: var(--main);
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.nav-logo {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.navBack {
+    border-top: 1PX solid #004e66;
+    background-color: var(--accent);
+    margin-top: 130px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.top-nav li {
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 18px;
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+.top-nav li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background-color: var(--accent);
+    bottom: 0%;
+    font-family: "Obvia Narrow", sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #fff;
+}
+
+.btm-nav-logo {
+    position: relative;
+    top: 10%;
+    width: 270px;
+    height: auto;
+}
+.btm-nav {
+    width: 80%;
+    position: relative;
+    top: 15%;
+}
+.btm-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with equal space between them */
+}
+
+.btm-nav li {
+    flex: 1; /* Each list item takes up equal space */
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.btm-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.btm-nav a:hover {
+    color: var(--main);
+}
+
+.news-form, .btm-text {
+    position: relative;
+    top: 15%;
+}
+
+.news-form h3 {
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 24px;
+}
+.socials {
+    position: relative;
+    top: 10%;
+    right: 10%;
+}
+
+/*Under here*/
+.top-nav ul { 
+    margin: 150px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+}
+.top-nav ul li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+}
+.top-nav a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+.top-nav a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 7px;
+    left: 50%;
+    position: absolute;
+    background: var(--main);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.top-nav a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.news-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btm-text {
+    width: 100%;
+    height: auto;
+    display: flex; 
+}
+.btm-text .location {
+    width: 50%;
+    padding-right: 5%;
+}
+.btm-text .provider {
+    width: 15%;
+}
+.news-form input {
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    background-color: #115063;
+    border: none;
+    margin: none;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+.news-form input::placeholder {
+    color: white;
+}
+.news-form h3 {
+    width: 20%;
+}
+.news-form button {
+    width: 150px;
+    margin: 0; 
+}
+
+.privacy-policy {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: -55px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+.privacy-policy:hover {
+    text-decoration: underline;
+}

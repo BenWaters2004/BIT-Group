@@ -1,0 +1,306 @@
+/*
+Styling used on the majority of page
+
+Resets browsers default styling*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Sets variables*/
+:root {
+    --main: #db2b53;
+    --accent: #003B4D;
+    --text: #828282;
+}
+
+/*Gets the fonts*/
+@font-face {
+    font-family: "Bliss Pro";
+    src: url("fonts/BlissPro-Light.woff2") format("woff2"), url("fonts/BlissPro-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Bliss Pro";
+    src: url("fonts/BlissPro-Medium.woff2") format("woff2"), url("fonts/BlissPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Bliss Pro";
+    src: url("fonts/BlissPro-Heavy.woff2") format("woff2"), url("fonts/BlissPro-Heavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Obvia Narrow";
+    src: url("fonts/ObviaNarrow-SemiBold.woff2") format("woff2"), url("fonts/ObviaNarrow-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Obvia Narrow";
+    src: url("fonts/ObviaNarrow-Medium.woff2") format("woff2"), url("fonts/ObviaNarrow-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Obvia Narrow";
+    src: url("fonts/ObviaNarrow-ExtraLight.woff2") format("woff2"), url("fonts/ObviaNarrow-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Obvia Narrow";
+    src: url("fonts/ObviaNarrow-Bold.woff2") format("woff2"), url("fonts/ObviaNarrow-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Obvia Narrow";
+    src: url("fonts/ObviaNarrow.woff2") format("woff2"), url("fonts/ObviaNarrow.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Obvia Narrow";
+    src: url("fonts/ObviaNarrow-Light.woff2") format("woff2"), url("fonts/ObviaNarrow-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    overflow-x: hidden;
+}
+/*The margins on either side of the page*/
+.margins {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*btn where there is a transparrent background with an outline*/
+.btn-outline {
+    text-decoration: none;
+    text-align: center;
+    color: var(--main);
+    font-family: "Bliss Pro";
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 2px solid var(--main);
+    padding: 18px 34px;
+    font-weight: 900;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.btn-outline:hover {
+    background-color: white;
+}
+
+.btn-solid {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: "Bliss Pro";
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px 32px;
+    font-weight: 900;
+    border-radius: 60px;
+    background-color: var(--main);
+    cursor: pointer;
+}
+.btn-solid:hover {
+    background-color: #bf284b;
+}
+
+/*Title and text block*/
+.Title-TextBlock {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.Title-TextBlock h2 {
+    flex: 1;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 42px;
+    color: var(--accent);
+    max-width: 40%;
+}
+.Title-TextBlock h2 span {
+    color: var(--main);
+}
+.Title-TextBlock p {
+    flex: 1;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--text);
+    margin-left: 20px;
+}
+
+.Carousel {
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+}
+.Carousel h3 {
+    text-align: center;
+    color: var(--main);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Obvia Narrow", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.Carousel h2 {
+    text-align: center;
+    color: var(--accent);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+.Carousel h4 {
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--accent);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Carousel p {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text);
+}
+.blocks {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+.block {
+    flex: 0 0 33.33%;
+    text-align: center;
+    /* Adjust width as per your requirement */
+}
+.controls {
+    text-align: center;
+    margin-top: 10px;
+}
+.block img {
+    width: 250px;
+    height: auto;
+}
+.CaraText {
+    width: 75%;
+    margin-left: 12.5%;
+}
+.Carousel a {
+    position: relative;
+    top: 40px;
+}
+
+.Stats {
+    width: 100%;
+    height: max-content;
+    margin-top: 100px;
+}
+.Stats h2 {
+    text-align: center;
+    color: var(--accent);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+.Stats h3 {
+    text-align: center;
+    color: var(--main);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Obvia Narrow", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.Stats .block {
+    border-top: 8px solid lightgray;
+    border-bottom: 8px solid lightgray;
+}
+.Stats h4 {
+    font-family: "Bliss Pro";
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--accent);
+}
+.Stats img {
+    width: 150px;
+    height: auto;
+}
+
