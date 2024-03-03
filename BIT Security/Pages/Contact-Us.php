@@ -37,6 +37,24 @@
         </div>
 
         <?php require("../Constants/contactForm.php");?>
+
+        <div class="Locations">
+            <h3>FIND A SECURITY OPERATIONS CENTRE</h3>
+            <h4>NEAR YOU</h4>
+
+            <div class="Plymouth">
+                <h5>Plymouth - Headquarters</h5>
+            </div>
+            <div class="CEME">
+                <h5>CEME</h5>
+            </div>
+            <div class="Liverpool">
+                <H5>Liverpool</H5>
+            </div>
+            <div class="Birmingham">
+                <h5>Birmingham</h5>
+            </div>
+        </div>
     </div>
 
     <?php require("../Constants/footer.php");?>

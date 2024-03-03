@@ -1,3 +1,4 @@
+/*Home Page CSS*/
 .homeBanner {
     position: relative;
     background-image: url("../Media/General/banner-1-work-scaled.jpg");
@@ -38,7 +39,7 @@
     transform: translateY(-50%);
 }
 
-
+/*Contact Us Page CSS*/
 .ContactBanner {
     position: relative;
     background-color: var(--main);
@@ -95,4 +96,37 @@
     top: 35%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+.Contacts-img {
+    width: 100%;
+    height: auto;
+}
+.Locations {
+    background-image: url("../Media/General/building.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.Locations h3 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    border-bottom: 1px solid white;
+    margin-right: 15%;
+    text-align: right;
+    color: white;
+    padding-top: 20%;
+}
+.Locations h4 {
+    font-weight: 300;
+    font-size: 30px;
+    font-family: "Obvia Narrow", sans-serif;
+    margin-right: 15%;
+    text-align: right;
+    color: white;
+    line-height: 45px;
+    padding-bottom: 100px;
 }

@@ -19,7 +19,6 @@
     <!--Styling-->
     <link rel="stylesheet" href="CSS/global.css">
     <link rel="stylesheet" href="CSS/Main.css">
-    <link href="Java.js">
     
     <?php 
     require("Constants/header.php");
@@ -42,12 +41,12 @@
             From Cyber Essentials Certification to ISO 27001, Vulnerability Assessments to Penetration Testing, Next Generation Antivirus to Email Security, Employee Security Training to Phishing Simulation, Endpoint Detection and Response (EDR) to Managed Detection and Response (MDR).  We implement the tools your business needs and monitor and manage the ongoing security requirements of your business.</p>
         </div>
 
-        <div class="Carousel">
+        <div class="Carousel" id="noMargins">
             <h3>FINDING THE RIGHT LEVEL</h3>
             <h2>of protection for your business</h2>
             <div class="blocks">
                 <div class="block">
-                    <img src="http://localhost/BIT Security\Media\Carousel-Icons\BIT-red-one-01.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-one-01.svg" alt="">
                     <div class="CaraText">
                         <h4>Essentials - £14 per user per month</h4>
                         <p>The minimum cyber security a business needs to implement to keep their data, people and communications safe. Keep spam emails at bay and ensure your team know how to spot a Phish.</p>
@@ -55,7 +54,7 @@
                     <a href="#" class="btn-outline">MORE</a>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT Security\Media\Carousel-Icons\BIT-red-fingerprint.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-fingerprint.svg" alt="">
                     <div class="CaraText">
                         <h4>Extended - £18 per user per month</h4>
                         <p>Level up the Essential plan with an enhanced version of password security. Secure all the digital endpoints in your business from laptops to payment devices easily and effectively.</p>
@@ -63,7 +62,7 @@
                     <a href="#" class="btn-outline">MORE</a>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT Security\Media\Carousel-Icons\BIT-red-phone.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-phone.svg" alt="">
                     <div class="CaraText">
                         <h4>Assured - £28 per user per month</h4>
                         <p>Secure all your devices, people, data and endpoints and include 24-hour monitoring along with OneDrive Back-up. The Assured packages means your data is always safe and can be restored.</p>
@@ -72,8 +71,7 @@
                 </div>
             </div>
             <div class="controls">
-                <button onclick="prevBlock()">Previous</button>
-                <button onclick="nextBlock()">Next</button>
+                
             </div>
         </div>
 
@@ -82,17 +80,17 @@
             <h2>but we are proud of these</h2>
             <div class="blocks">
                 <div class="block">
-                    <img src="http://localhost/BIT Security\Media\Carousel-Icons\Artboard-1-3.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\Artboard-1-3.svg" alt="">
                     <h4 id="ChangeNum">100</h4>
                     <p>Cyber essentials completed</p>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT Security\Media\Carousel-Icons\Artboard-1-1.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\Artboard-1-1.svg" alt="">
                     <h4 id="ChangeNum">50000</h4>
                     <p>Indicators of Compromise contributed</p>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT Security\Media\Carousel-Icons\examine-1.png" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\examine-1.png" alt="">
                     <h4 id="ChangeNum">20</h4>
                     <p>Years providing Cyber Security to businesses</p>
                 </div>

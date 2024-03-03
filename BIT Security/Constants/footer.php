@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../CSS/global.css">
 
 <div class="footer">
-    <a href="http://localhost/BIT%20Security"><img src="http://localhost/BIT%20Security/Media\logos\BIT-Security-horizontal.png" class="btm-nav-logo" alt="Powered by BIT group"></a>
+    <a href="http://localhost/BIT-Group/BIT%20Security"><img src="http://localhost/BIT-Group/BIT%20Security/Media\logos\BIT-Security-horizontal.png" class="btm-nav-logo" alt="Powered by BIT group"></a>
     <div>
         <a href="https://twitter.com/thinkbitgroup" target="_blank"><img src="" alt="Twitter"></a>
         <a href="https://www.linkedin.com/showcase/bluescreenit-cyber-security-services/" target="_blank"><img src="" alt="Linkedin"></a>
@@ -29,6 +29,6 @@
         <a href="https://cyberhub.org.uk/" target="_blank"><img src="https://thinkbitsecurity.co.uk/wp-content/uploads/2022/09/PSMG-Logo.png"/></a>
     </div>
 
-    <a target="" href="https://thinkbitsecurity.co.uk/privacy-policy/" class="privacy-policy">Privacy policy</a>
+    <a target="" href="#" class="privacy-policy">Privacy policy</a>
 </div>
 

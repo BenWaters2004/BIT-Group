@@ -11,20 +11,20 @@
                     'margin-top': '130px',
                     'width': '100%',
                 });
-                $('.nav-logo img').attr('src', 'http://localhost/BIT%20Security/Media/logos/BIT-Security-virtical.png');
+                $('.nav-logo img').attr('src', 'http://localhost/BIT-Group/BIT%20Security/Media/logos/BIT-Security-virtical.png');
             } else {
                 $('.navBack').css({
                     'border': 'none',
                     'margin-top': '70px'
                 });
-                $('.nav-logo img').attr('src', 'http://localhost/BIT%20Security/Media/logos/BIT-small-B.png');
+                $('.nav-logo img').attr('src', 'http://localhost/BIT-Group/BIT%20Security/Media/logos/BIT-small-B.png');
             }
         });
     });
 </script>
 
 <div class="header">
-    <a href="http://localhost/BIT%20Security" class="nav-logo"><img src="http://localhost/BIT%20Security/Media/logos/BIT-Security-virtical.png" alt="BIT Security"></a>
+    <a href="http://localhost/BIT%20Security" class="nav-logo"><img src="http://localhost/BIT-Group/BIT%20Security/Media/logos/BIT-Security-virtical.png" alt="BIT Security"></a>
     <h3>+44 (0)1752 724 000</h3>
     <div class="navBack">
         <ul class="top-nav">
@@ -32,7 +32,7 @@
             <li><a href="#">SERVICES</a></li>
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">NEWS</a></li>
-            <li><a href="http://localhost/BIT%20Security/Pages/Contact-Us.php">CONTACT US</a></li>
+            <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Contact-Us.php">CONTACT US</a></li>
         </ul>
     </div>
 </div>

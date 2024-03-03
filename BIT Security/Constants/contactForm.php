@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="http://localhost/BIT%20Security//CSS/contact.css">
-<link rel="stylesheet" href="http://localhost/BIT%20Security/CSS/global.css">
+<link rel="stylesheet" href="http://localhost/BIT-Group/BIT%20Security//CSS/contact.css">
+<link rel="stylesheet" href="http://localhost/BIT-Group/BIT%20Security/CSS/global.css">
 
 
 <div class="contactForm">
@@ -16,7 +16,7 @@
         <input type="text" id="fname" name="fname">
         <input type="text" id="lname" name="lname"><br>
         <label for="fname">First name</label>
-        <label for="lname">Last name</label><br><br>
+        <label for="lname" id="lastName">Last name</label><br><br>
         <P>Email <span>*</span></P>
         <input type="email" id="email" name="email"><br><br>
         <P>Message</P>

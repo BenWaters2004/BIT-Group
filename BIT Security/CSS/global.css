@@ -200,9 +200,13 @@ body {
 }
 
 .Carousel {
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 100px 100px;
     width: 100%;
     height: max-content;
     margin-top: 50px;
+    background-color: #f8f8f8;
 }
 .Carousel h3 {
     text-align: center;
@@ -270,9 +274,9 @@ body {
     width: 100%;
     height: max-content;
     margin-top: 100px;
+    text-align: center;
 }
 .Stats h2 {
-    text-align: center;
     color: var(--accent);
     font-family: "Obvia Narrow", sans-serif;
     font-weight: 600;
@@ -281,7 +285,6 @@ body {
     margin-bottom: 40px;
 }
 .Stats h3 {
-    text-align: center;
     color: var(--main);
     font-size: 18px;
     line-height: 22px;
@@ -289,18 +292,36 @@ body {
     text-transform: uppercase;
     font-weight: 600;
 }
+.Stats .blocks {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 75px;
+}
 .Stats .block {
     border-top: 8px solid lightgray;
     border-bottom: 8px solid lightgray;
+    max-width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .Stats h4 {
-    font-family: "Bliss Pro";
+    font-family: "Obvia Narrow", sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 65px;
     color: var(--accent);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .Stats img {
     width: 150px;
     height: auto;
+}
+.Stats p {
+    color: var(--text);
+    font-family: "Obvia Narrow", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
 }
 

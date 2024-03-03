@@ -76,6 +76,9 @@
     border: 2px solid var(--main);
     padding: 5px;
 }
+#lastName {
+    margin-left: 110px;
+}
 #email, #msg {
     width: 340px;
 }
