@@ -75,23 +75,23 @@
             </div>
         </div>
 
-        <div class="Stats">
+        <div class="Stats" id="stats-container">
             <h3>IT’S NOT ALL ABOUT THE NUMBERS</h3>
             <h2>but we are proud of these</h2>
             <div class="blocks">
                 <div class="block">
                     <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\Artboard-1-3.svg" alt="">
-                    <h4 id="ChangeNum">100</h4>
+                    <h4 id="num100">0</h4>
                     <p>Cyber essentials completed</p>
                 </div>
                 <div class="block">
                     <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\Artboard-1-1.svg" alt="">
-                    <h4 id="ChangeNum">50000</h4>
+                    <h4 id="num50000">0</h4>
                     <p>Indicators of Compromise contributed</p>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\examine-1.png" alt="">
-                    <h4 id="ChangeNum">20</h4>
+                    <img id="spin" src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\examine-1.png" alt="">
+                    <h4 id="num20">0</h4>
                     <p>Years providing Cyber Security to businesses</p>
                 </div>
             </div>
@@ -101,5 +101,52 @@
     </div>
 
     <?php require("Constants/footer.php");?>
+
+    <script>
+        (function($) {
+            $.fn.animateNumbers = function(stop, commas, duration, ease) {
+                return this.each(function() {
+                    var $this = $(this);
+                    var start = parseInt($this.text().replace(/,/g, ""));
+                    commas = (commas === undefined) ? true : commas;
+                    $({value: start}).animate({value: stop}, {
+                        duration: duration == undefined ? 1000 : duration,
+                        easing: ease == undefined ? "swing" : ease,
+                        step: function() {
+                            $this.text(Math.floor(this.value));
+                            if (commas) { $this.text($this.text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); }
+                        },
+                        complete: function() {
+                            if (parseInt($this.text()) !== stop) {
+                                $this.text(stop);
+                                if (commas) { $this.text($this.text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); }
+                            }
+                        }
+                    });
+                });
+            };
+        })(jQuery);
+
+        // Intersection Observer setup
+        var options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5 // Change the threshold as needed
+        };
+
+        var observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    $('#num100').animateNumbers(100, true, 4000); // Adjust the duration here
+                    $('#num50000').animateNumbers(50000, true, 4000); // Adjust the duration here
+                    $('#num20').animateNumbers(20, true, 4000); // Adjust the duration here
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        // Start observing the target element
+        observer.observe(document.getElementById('stats-container'));
+    </script>
 </body>
-</html>
+</html>;

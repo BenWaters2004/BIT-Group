@@ -325,3 +325,39 @@ body {
     margin-top: 30px;
 }
 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    width: 70%;
+    height: 100px;
+    left: 15%;
+    border-radius: 15px;
+}
+.dropdown h5 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: var(--accent);
+    margin-top: 32.5px;
+    margin-left: 30px;
+}
+.dropdown-toggle {
+    background-color: none;
+    color: var(--main);
+    border: none;
+    cursor: pointer;
+    margin-left: 90%;
+}
+.dropdown-toggle i {
+    border: 2px solid var(--main);
+    border-radius: 50%;
+    padding: 20px;
+}
+.dropdownContent {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}

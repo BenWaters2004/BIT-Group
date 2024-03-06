@@ -3,15 +3,16 @@
 
 <div class="footer">
     <a href="http://localhost/BIT-Group/BIT%20Security"><img src="http://localhost/BIT-Group/BIT%20Security/Media\logos\BIT-Security-horizontal.png" class="btm-nav-logo" alt="Powered by BIT group"></a>
-    <div>
-        <a href="https://twitter.com/thinkbitgroup" target="_blank"><img src="" alt="Twitter"></a>
-        <a href="https://www.linkedin.com/showcase/bluescreenit-cyber-security-services/" target="_blank"><img src="" alt="Linkedin"></a>
+    <div class="Socials">
+        <a href="https://twitter.com/thinkbitgroup" target="_blank"><i class="fa-brands fa-twitter" id="icon"></i></a>
+        <a href="https://www.linkedin.com/showcase/bluescreenit-cyber-security-services/" target="_blank"><i class="fa-brands fa-linkedin-in" id="icon"></i></a>
     </div>
     <div class="btm-nav">
         <ul>
             <li><a href="#">CYBER SECURITY PACKAGES</a></li>
-            <li><a href="#">ACHIEVE ISO 27001 COMPLIANCE</a></li>
+            <li><a href="#">CYBER ESSENTIALS CERTIFICATION</a></li>
             <li><a href="#">PROACTIVE PENETRATION TESTING</a></li>
+            <li><a href="#">ACHIEVE ISO 27001 COMPLIANCE</a></li>
             <li><a href="#">MANAGED DETECTION AND RESPONSE SERVICES</a></li>
             <li><a href="#">NEWS</a></li>
         </ul>

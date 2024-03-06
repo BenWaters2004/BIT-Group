@@ -30,7 +30,7 @@
             <div class="ContactBannerText">
                 <h2>Start the <br>conversation</h2>
                 <h1>Contact us and see what we can offer.</h1>
-                <p>Please fill out the form below and we’ll get the right team to get in touch with you shortly.<br><br>
+                <p>Please fill out the form below and we'll get the right team to get in touch with you shortly.<br><br>
                 If you have any questions please consider reading our <a href="#">FAQ page</a> first</p>
             </div>
             <img src="../Media/General/employer-portrait.png" alt="Contact Us">
@@ -42,8 +42,16 @@
             <h3>FIND A SECURITY OPERATIONS CENTRE</h3>
             <h4>NEAR YOU</h4>
 
-            <div class="Plymouth">
+            <div class="dropdown" id="dropdown">
                 <h5>Plymouth - Headquarters</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown()">Open <i class="fa-solid fa-angle-right" ></i></a>
+                <div class="dropdownContent" id="dropdownContent">
+                    <p>Plymouth Science Park,
+                    1 Davy Rd, Plymouth,
+                    Devon PL6 8BX</p>
+                    <p>+44 (0)1752 724 000
+                    sales@thinkbitgroup.co.uk</p>
+                </div>
             </div>
             <div class="CEME">
                 <h5>CEME</h5>
@@ -58,5 +66,8 @@
     </div>
 
     <?php require("../Constants/footer.php");?>
+    <script src="../Java.js"></script>
 </body>
 </html>
+
+<!-- <i class="fa-solid fa-chevron-down"></i> -->

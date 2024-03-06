@@ -208,7 +208,6 @@
     width: 150px;
     margin: 0; 
 }
-
 .privacy-policy {
     text-decoration: none;
     color: white;
@@ -219,4 +218,12 @@
 }
 .privacy-policy:hover {
     text-decoration: underline;
+}
+
+#icon {
+    color: var(--main);
+    text-decoration: none;
+    border: 1px solid var(--main);
+    border-radius: 50%;
+    padding: 10px;
 }
