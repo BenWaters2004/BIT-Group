@@ -1,15 +1,15 @@
-function toggleDropdown() {
-    var dropdownContent = document.getElementById("dropdownContent");
-    var dropdown = document.getElementById("dropdown");
-    var dropdownIcon = document.querySelector(".dropdown-toggle i");
+function toggleDropdown(contentId) {
+    var dropdownContent = document.getElementById(contentId);
+    var dropdown = dropdownContent.parentElement; // Get the parent dropdown element
+    var dropdownIcon = dropdownContent.previousElementSibling.querySelector("i");
 
-    if (dropdownContent.style.display === "block") {
-        dropdownContent.style.display = "none";
-        dropdown.style.height = "100px";
+    if (dropdownContent.style.maxHeight) {
+        dropdownContent.style.maxHeight = null;
         dropdownIcon.classList.remove("fa-rotate-90");
+        dropdown.style.height = "100px"; // Reset the height of the dropdown
     } else {
-        dropdownContent.style.display = "block";
-        dropdown.style.height = "500px";
+        dropdownContent.style.maxHeight = "400px";
         dropdownIcon.classList.add("fa-rotate-90");
+        dropdown.style.height = "400px"; // Adjust the height of the dropdown
     }
 }

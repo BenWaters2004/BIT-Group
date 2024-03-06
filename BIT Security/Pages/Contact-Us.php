@@ -17,6 +17,7 @@
     <meta name="description" content="BIT Cyber Security services provides you with swift, clear advice and an expert eye on your network to reduce the threat of cyber incidents. Find out more here"/>
 
     <!--Styling-->
+    <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
     <link rel="stylesheet" href="../CSS/global.css">
     <link rel="stylesheet" href="../CSS/Main.css">
     
@@ -38,29 +39,54 @@
 
         <?php require("../Constants/contactForm.php");?>
 
+        <div class="image-container"></div>
         <div class="Locations">
             <h3>FIND A SECURITY OPERATIONS CENTRE</h3>
             <h4>NEAR YOU</h4>
 
             <div class="dropdown" id="dropdown">
                 <h5>Plymouth - Headquarters</h5>
-                <a class="dropdown-toggle" onclick="toggleDropdown()">Open <i class="fa-solid fa-angle-right" ></i></a>
-                <div class="dropdownContent" id="dropdownContent">
-                    <p>Plymouth Science Park,
-                    1 Davy Rd, Plymouth,
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent1')">Open <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent1">
+                    <p>Plymouth Science Park,<br>
+                    1 Davy Rd, Plymouth,<br>
                     Devon PL6 8BX</p>
-                    <p>+44 (0)1752 724 000
-                    sales@thinkbitgroup.co.uk</p>
+                    <p><span>+44 (0)1752 724 000<br>
+                    sales@thinkbitgroup.co.uk</span></p>
                 </div>
             </div>
-            <div class="CEME">
+            <div class="dropdown" id="dropdown">
                 <h5>CEME</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent2')">Open <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent2">
+                    <p>CEME Business Campus,<br>
+                    Marsh Way,<br>
+                    Rainham RM13 8EU</p>
+                    <p><span>+44 (0)1752 724 000<br>
+                    sales@thinkbitgroup.co.uk</span></p>
+                </div>
             </div>
-            <div class="Liverpool">
-                <H5>Liverpool</H5>
+            <div class="dropdown" id="dropdown">
+                <h5>Liverpool</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent3')">Open <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent3">
+                    <p>Hugh Baird CyberHub,<br>
+                    Hugh Baird College, Balliol Rd, Bootle,<br>
+                    Liverpool L20 7EW</p>
+                    <p><span>+44 (0)1752 724 000<br>
+                    sales@thinkbitgroup.co.uk</span></p>
+                </div>
             </div>
-            <div class="Birmingham">
+            <div class="dropdown" id="dropdown">
                 <h5>Birmingham</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent4')">Open <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent4">
+                    <p>BMet CyberHub,<br>
+                    Matthew Boulton, Jennens Road,<br>
+                    Birmingham B4 7PS</p>
+                    <p><span>+44 (0)1752 724 000<br>
+                    sales@thinkbitgroup.co.uk</span></p>
+                </div>
             </div>
         </div>
     </div>

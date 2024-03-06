@@ -59,70 +59,6 @@ table {
     --text: #828282;
 }
 
-/*Gets the fonts*/
-@font-face {
-    font-family: "Bliss Pro";
-    src: url("fonts/BlissPro-Light.woff2") format("woff2"), url("fonts/BlissPro-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Bliss Pro";
-    src: url("fonts/BlissPro-Medium.woff2") format("woff2"), url("fonts/BlissPro-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Bliss Pro";
-    src: url("fonts/BlissPro-Heavy.woff2") format("woff2"), url("fonts/BlissPro-Heavy.woff") format("woff");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Obvia Narrow";
-    src: url("fonts/ObviaNarrow-SemiBold.woff2") format("woff2"), url("fonts/ObviaNarrow-SemiBold.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Obvia Narrow";
-    src: url("fonts/ObviaNarrow-Medium.woff2") format("woff2"), url("fonts/ObviaNarrow-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Obvia Narrow";
-    src: url("fonts/ObviaNarrow-ExtraLight.woff2") format("woff2"), url("fonts/ObviaNarrow-ExtraLight.woff") format("woff");
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Obvia Narrow";
-    src: url("fonts/ObviaNarrow-Bold.woff2") format("woff2"), url("fonts/ObviaNarrow-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Obvia Narrow";
-    src: url("fonts/ObviaNarrow.woff2") format("woff2"), url("fonts/ObviaNarrow.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Obvia Narrow";
-    src: url("fonts/ObviaNarrow-Light.woff2") format("woff2"), url("fonts/ObviaNarrow-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
 body {
     overflow-x: hidden;
 }
@@ -145,6 +81,7 @@ body {
     font-weight: 900;
     border-radius: 60px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .btn-outline:hover {
     background-color: white;
@@ -162,6 +99,7 @@ body {
     border-radius: 60px;
     background-color: var(--main);
     cursor: pointer;
+    transition: 0.3s;
 }
 .btn-solid:hover {
     background-color: #bf284b;
@@ -334,6 +272,9 @@ body {
     height: 100px;
     left: 15%;
     border-radius: 15px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
 }
 .dropdown h5 {
     font-family: "Obvia Narrow", sans-serif;
@@ -341,23 +282,49 @@ body {
     font-size: 35px;
     color: var(--accent);
     margin-top: 32.5px;
-    margin-left: 30px;
+    margin-left: 5%;
 }
 .dropdown-toggle {
+    position: absolute;
     background-color: none;
     color: var(--main);
     border: none;
     cursor: pointer;
-    margin-left: 90%;
+    margin-top: -32.5px;
+    left: 85%;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    vertical-align: middle;
 }
 .dropdown-toggle i {
-    border: 2px solid var(--main);
-    border-radius: 50%;
-    padding: 20px;
+    vertical-align: bottom;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 4px;
+    transition: all 0.3s;
 }
+
 .dropdownContent {
-    display: none;
     position: absolute;
-    width: 100%;
+    width: 90%;
     z-index: 1;
+    margin-top: 33.5px;
+    margin-left: 5%;
+    border-top: solid 1px var(--text);
+    max-height: 0;
+    overflow: hidden;
+}
+.dropdownContent p {
+    margin-top: 40px;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--text);
+}
+.dropdownContent p span {
+color: var(--main);
 }

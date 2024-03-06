@@ -17,6 +17,7 @@
     <meta name="description" content="BIT Cyber Security services provides you with swift, clear advice and an expert eye on your network to reduce the threat of cyber incidents. Find out more here"/>
 
     <!--Styling-->
+    <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
     <link rel="stylesheet" href="CSS/global.css">
     <link rel="stylesheet" href="CSS/Main.css">
     

@@ -104,6 +104,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 1.5;
+    transition: 0.3s;
 }
 
 .btm-nav a:hover {
@@ -121,9 +122,8 @@
     font-size: 24px;
 }
 .socials {
-    position: relative;
-    top: 10%;
-    right: 10%;
+    position: absolute;
+    margin-left: 60%;
 }
 
 /*Under here*/
@@ -166,6 +166,30 @@
     width: 100%; 
     left: 0; 
 }
+.hoverMenu {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 4px solid var(--main);
+    display: none;
+}
+.hoverMenu p {
+    color: var(--main);
+    margin-left: 40%;
+    font-size: 14px;
+    line-height: 30px;
+}
+.hoverMenu a {
+    text-decoration: none;
+    color: var(--accent);
+    margin-left: 40%;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
 
 .news-form {
     width: 100%;
@@ -223,7 +247,14 @@
 #icon {
     color: var(--main);
     text-decoration: none;
-    border: 1px solid var(--main);
+    border: 2px solid var(--main);
     border-radius: 50%;
+    font-size: 20px;
     padding: 10px;
+    margin-right: 7px;
+    transition: 0.3s;
+}
+#icon:hover {
+    color: white;
+    border-color: white;
 }

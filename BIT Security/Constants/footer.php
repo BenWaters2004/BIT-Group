@@ -3,7 +3,7 @@
 
 <div class="footer">
     <a href="http://localhost/BIT-Group/BIT%20Security"><img src="http://localhost/BIT-Group/BIT%20Security/Media\logos\BIT-Security-horizontal.png" class="btm-nav-logo" alt="Powered by BIT group"></a>
-    <div class="Socials">
+    <div class="socials">
         <a href="https://twitter.com/thinkbitgroup" target="_blank"><i class="fa-brands fa-twitter" id="icon"></i></a>
         <a href="https://www.linkedin.com/showcase/bluescreenit-cyber-security-services/" target="_blank"><i class="fa-brands fa-linkedin-in" id="icon"></i></a>
     </div>

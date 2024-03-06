@@ -101,13 +101,19 @@
     width: 100%;
     height: auto;
 }
-.Locations {
+.image-container {
     background-image: url("../Media/General/building.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 800px;
+    margin-bottom: 0;
+}
+.Locations {
+    width: 100%;
     height: auto;
+    overflow-y: visible;
 }
 .Locations h3 {
     font-family: "Obvia Narrow", sans-serif;
@@ -118,7 +124,7 @@
     margin-right: 15%;
     text-align: right;
     color: white;
-    padding-top: 20%;
+    margin-top: -700px;
 }
 .Locations h4 {
     font-weight: 300;
