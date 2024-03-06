@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="CSS/header+footer.css">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/7732d65683.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -104,7 +102,7 @@
     </ul>
     <ul class="hoverMenu" id="AboutHover">
         <li><p>Who is BIT Group?</p></li>
-        <li><a href="#">About BIT Security</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/About/About-BIT-Security.php">About BIT Security</a></li>
         <li><a href="#">Our Amazing Cyber Partners</a></li>
         <li><a href="#">Our Cyber Technology Solutions</a></li>
         <li><a href="#">Fast FAQs</a></li>

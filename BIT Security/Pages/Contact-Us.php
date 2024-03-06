@@ -18,6 +18,7 @@
 
     <!--Styling-->
     <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
+    <link rel="stylesheet" href="../CSS/header+footer.css">
     <link rel="stylesheet" href="../CSS/global.css">
     <link rel="stylesheet" href="../CSS/Main.css">
     
@@ -27,8 +28,8 @@
 </head>
 <body>
     <div class="margins">
-        <div class="ContactBanner">
-            <div class="ContactBannerText">
+        <div class="OvalBanner">
+            <div class="OvalBannerText">
                 <h2>Start the <br>conversation</h2>
                 <h1>Contact us and see what we can offer.</h1>
                 <p>Please fill out the form below and we'll get the right team to get in touch with you shortly.<br><br>
@@ -53,6 +54,7 @@
                     Devon PL6 8BX</p>
                     <p><span>+44 (0)1752 724 000<br>
                     sales@thinkbitgroup.co.uk</span></p>
+                    <div id="map"></div>
                 </div>
             </div>
             <div class="dropdown" id="dropdown">
@@ -64,6 +66,7 @@
                     Rainham RM13 8EU</p>
                     <p><span>+44 (0)1752 724 000<br>
                     sales@thinkbitgroup.co.uk</span></p>
+                    <div id="map"></div>
                 </div>
             </div>
             <div class="dropdown" id="dropdown">
@@ -75,6 +78,7 @@
                     Liverpool L20 7EW</p>
                     <p><span>+44 (0)1752 724 000<br>
                     sales@thinkbitgroup.co.uk</span></p>
+                    <div id="map"></div>
                 </div>
             </div>
             <div class="dropdown" id="dropdown">
@@ -86,6 +90,7 @@
                     Birmingham B4 7PS</p>
                     <p><span>+44 (0)1752 724 000<br>
                     sales@thinkbitgroup.co.uk</span></p>
+                    <div id="map"></div>
                 </div>
             </div>
         </div>

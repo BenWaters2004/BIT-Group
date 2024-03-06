@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="../CSS/header+footer.css">
-<link rel="stylesheet" href="../CSS/global.css">
-
 <div class="footer">
     <a href="http://localhost/BIT-Group/BIT%20Security"><img src="http://localhost/BIT-Group/BIT%20Security/Media\logos\BIT-Security-horizontal.png" class="btm-nav-logo" alt="Powered by BIT group"></a>
     <div class="socials">

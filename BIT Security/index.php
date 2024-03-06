@@ -18,8 +18,8 @@
 
     <!--Styling-->
     <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
+    <link rel="stylesheet" href="CSS/header+footer.css">
     <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/Main.css">
     
     <?php 
     require("Constants/header.php");

@@ -62,13 +62,121 @@ table {
 body {
     overflow-x: hidden;
 }
+
 /*The margins on either side of the page*/
 .margins {
     margin-left: 100px;
     margin-right: 100px;
 }
 
-/*btn where there is a transparrent background with an outline*/
+/*---------------------Banner Designs-------------------------*/
+
+/*Banner design 1*/
+.OvalBanner {
+    position: relative;
+    background-color: var(--main);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: 180px;
+}
+.OvalBanner img {
+    height: 100%;
+    width: auto;
+    margin-left: 42%;
+}
+.OvalBanner h1 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 43px;
+    margin-top: 50px;
+    line-height: 48px;
+    color: white;
+}
+.OvalBanner h1 span {
+    color: var(--accent);
+}
+.OvalBanner h2 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    margin-top: 170px;
+    line-height: 40px;
+    color: #002b2a;
+}
+.OvalBanner p {
+    color: white;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.OvalBanner p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.OvalBanner p a:hover{
+    text-decoration: underline;
+}
+.OvalBannerText {
+    margin-left: 50px;
+    max-width: 400px;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*Banner Design 2*/
+.homeBanner {
+    position: relative;
+    background-image: url("../Media/General/banner-1-work-scaled.jpg");
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: 180px;
+}
+.homeBanner h1 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 43px;
+    margin-top: 150px;
+    line-height: 48px;
+    color: var(--accent);
+}
+.homeBanner h1 span {
+    color: var(--main);
+}
+.homeBanner p {
+    color: var(--text);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.homeBannerText {
+    margin-left: 40px;
+    max-width: 500px;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*---------------------Button Designs-------------------------*/
+
+/*btn - transparrent background with an outline*/
 .btn-outline {
     text-decoration: none;
     text-align: center;
@@ -87,6 +195,7 @@ body {
     background-color: white;
 }
 
+/*btn - solid background white text*/
 .btn-solid {
     text-decoration: none;
     text-align: center;
@@ -105,38 +214,7 @@ body {
     background-color: #bf284b;
 }
 
-/*Title and text block*/
-.Title-TextBlock {
-    width: 100%;
-    height: auto;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 110px;
-    margin-bottom: 110px;
-}
-.Title-TextBlock h2 {
-    flex: 1;
-    font-family: "Obvia Narrow", sans-serif;
-    font-weight: 600;
-    font-size: 37px;
-    line-height: 42px;
-    color: var(--accent);
-    max-width: 40%;
-}
-.Title-TextBlock h2 span {
-    color: var(--main);
-}
-.Title-TextBlock p {
-    flex: 1;
-    font-family: "Obvia Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--text);
-    margin-left: 20px;
-}
-
+/*---------------------Carousel Designs-------------------------*/
 .Carousel {
     margin-left: -100px;
     margin-right: -100px;
@@ -189,7 +267,6 @@ body {
 .block {
     flex: 0 0 33.33%;
     text-align: center;
-    /* Adjust width as per your requirement */
 }
 .controls {
     text-align: center;
@@ -208,62 +285,8 @@ body {
     top: 40px;
 }
 
-.Stats {
-    width: 100%;
-    height: max-content;
-    margin-top: 100px;
-    text-align: center;
-}
-.Stats h2 {
-    color: var(--accent);
-    font-family: "Obvia Narrow", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 45px;
-    margin-bottom: 40px;
-}
-.Stats h3 {
-    color: var(--main);
-    font-size: 18px;
-    line-height: 22px;
-    font-family: "Obvia Narrow", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.Stats .blocks {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 75px;
-}
-.Stats .block {
-    border-top: 8px solid lightgray;
-    border-bottom: 8px solid lightgray;
-    max-width: 20%;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.Stats h4 {
-    font-family: "Obvia Narrow", sans-serif;
-    font-weight: 900;
-    font-size: 65px;
-    color: var(--accent);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.Stats img {
-    width: 150px;
-    height: auto;
-}
-.Stats p {
-    color: var(--text);
-    font-family: "Obvia Narrow", sans-serif;
-    letter-spacing: 1px;
-    margin-top: 30px;
-}
 
-
+/*---------------------FAQ & Locations dropdowns Designs-------------------------*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -327,4 +350,135 @@ body {
 }
 .dropdownContent p span {
 color: var(--main);
+}
+
+
+/*---------------------Text Blocks & image Designs-------------------------*/
+
+/*Title and text block*/
+.Title-TextBlock {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.Title-TextBlock h2 {
+    flex: 1;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 42px;
+    color: var(--accent);
+    max-width: 35%;
+}
+.Title-TextBlock h2 span {
+    color: var(--main);
+}
+.Title-TextBlock p {
+    flex: 1;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--text);
+    margin-left: 20px;
+}
+
+/*Image left and Text right block*/
+.Image-TextBlock {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.Image-TextBlock img {
+    flex: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    max-width: 40%;
+    height: auto;
+}
+.Image-TextBlock .text {
+    flex: 1;
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--text);
+    margin-left: 20px;
+}
+.Image-TextBlock .text h2 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 42px;
+    color: var(--accent);
+}
+.Image-TextBlock .text h2 span {
+    color: var(--main);
+}
+
+/*---------------------Other Designs-------------------------*/
+
+/*Home Page stats counter*/
+.Stats {
+    width: 100%;
+    height: max-content;
+    margin-top: 100px;
+    text-align: center;
+}
+.Stats h2 {
+    color: var(--accent);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+.Stats h3 {
+    color: var(--main);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Obvia Narrow", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.Stats .blocks {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 75px;
+}
+.Stats .block {
+    border-top: 8px solid lightgray;
+    border-bottom: 8px solid lightgray;
+    max-width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Stats h4 {
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    color: var(--accent);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Stats img {
+    width: 150px;
+    height: auto;
+}
+.Stats p {
+    color: var(--text);
+    font-family: "Obvia Narrow", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
 }
