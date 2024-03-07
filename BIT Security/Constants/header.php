@@ -43,31 +43,37 @@
     });
 
     $(document).ready(function() {
-    $('.SecPackHover').hover(function() {
-        $('#ServicesHover').hide();
-        $('#AboutHover').hide();
-        $('#SecPackHover').slideDown('0.3s');
-    }, function() {
-        $('#SecPackHover').slideUp('0.3s');
+        $('.SecPackHover').mouseenter(function() {
+            $('#ServicesHover').hide();
+            $('#AboutHover').hide();
+            $('#SecPackHover').slideDown('0.3s');
+        });
+
+        $('#SecPackHover').mouseleave(function() {
+            $('#SecPackHover').slideUp('0.3s');
+        });
+
+        $('.ServicesHover').mouseenter(function() {
+            $('#AboutHover').hide();
+            $('#SecPackHover').hide();
+            $('#ServicesHover').slideDown('0.3s');
+        });
+
+        $('#ServicesHover').mouseleave(function() {
+            $('#ServicesHover').slideUp('0.3s');
+        });
+
+        $('.AboutHover').mouseenter(function() {
+            $('#ServicesHover').hide();
+            $('#SecPackHover').hide();
+            $('#AboutHover').slideDown("0.3s");
+        });
+
+        $('#AboutHover').mouseleave(function() {
+            $('#AboutHover').slideUp('0.3s');
+        });
     });
 
-    $('.ServicesHover').hover(function() {
-        $('#AboutHover').hide();
-        $('#SecPackHover').hide();
-        $('#ServicesHover').slideDown('0.3s');
-    }, function() {
-        $('#ServicesHover').slideUp('0.3s');
-    });
-
-    $('.AboutHover').hover(function() {
-        $('#ServicesHover').hide();
-        $('#SecPackHover').hide();
-        $('#AboutHover').slideDown("0.3s");
-    }, function() {
-        $('#AboutHover').slideUp('0.3s');
-    });
-    
-    });
 </script>
 
 
@@ -83,14 +89,14 @@
             <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Contact-Us.php">CONTACT US</a></li>
         </ul>
     </div>
-    <ul class="hoverMenu" id="SecPackHover">
+    <ul class="hoverMenu SecPackHover" id="SecPackHover">
         <li><p>Our Packages</p></li>
         <li><a href="#">Cyber Security Packages</a></li>
         <li><a href="#">Essentials Package</a></li>
         <li><a href="#">Extended Package</a></li>
         <li><a href="#"> Quality Assured Package</a></li>
     </ul>
-    <ul class="hoverMenu" id="ServicesHover">
+    <ul class="hoverMenu ServicesHover" id="ServicesHover">
         <li><p>What can we offer?</p></li>
         <li><a href="#">Cyber Essentials Certification</a></li>
         <li><a href="#">Pre-Employment Screening</a></li>
@@ -100,7 +106,7 @@
         <li><a href="#">Managed Detection and Response Services</a></li>
         <li><a href="#">Achieve ISO 27001 Compliance</a></li>
     </ul>
-    <ul class="hoverMenu" id="AboutHover">
+    <ul class="hoverMenu AboutHover" id="AboutHover">
         <li><p>Who is BIT Group?</p></li>
         <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/About/About-BIT-Security.php">About BIT Security</a></li>
         <li><a href="#">Our Amazing Cyber Partners</a></li>
