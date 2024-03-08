@@ -13,8 +13,8 @@
     <meta name="geo.placename" content="Plymouth, Devon, England" />
     <meta name="description" content="Powered by the BIT Group">
     <title>About BIT Security</title>
-    <meta name="keywords" content="BIT, Bluescreen, Cyber Security, SOC, SIEM, Pentesting, South West, Cyber essentials, EDR, Phishing simulation, password management, pre  employment screening,  EDR" />
-    <meta name="description" content="BIT Cyber Security services provides you with swift, clear advice and an expert eye on your network to reduce the threat of cyber incidents. Find out more here"/>
+    <meta name="keywords" content="BIT, Bluescreen, Cyber Security, SOC, SIEM, Pentesting, South West, Cyber essentials, EDR, Phishing simulation, password management, pre employment screening" />
+    <meta name="description" content="About BIT Security, your trusted partner for comprehensive cybersecurity solutions. Shield your business from evolving threats with our innovative solutions"/>
 
     <!--Styling-->
     <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
@@ -44,6 +44,12 @@
             Our security experts have diverse experiences in the field of cyber security from SOC and SIEM operations, pen testing networks and applications, creating bespoke Secure Networks, implementing ISO 27001, performing open-source threat intelligence, identifying over 45,000 indicators of compromise, running simulated phishing attacks and provide strategic security advice to MoD requirements.</p>
         </div>
 
+        <div class="BITgroup">
+            <a href="https://www.bluescreenit.co.uk/"><img width="300px" src="../../Media/logos/BIT Group.png" alt="BIT Group"></a>
+            <a href="https://thinkbittraining.co.uk/"><img width="300px" src="../../Media//logos/BIT Training.png" alt="BIT Training"></a>
+            <a href="https://thinkbitsecurity.co.uk/"><img width="300px" src="../../Media/logos/BIT Security.png" alt="BIT Security"></a>
+        </div>
+
         <div class="Image-TextBlock">
             <img src="../../Media/General/lookingAtPaper.png" alt="Cyber Security" id="img-left">
             <div class="text">
@@ -68,7 +74,7 @@
                 <p>Would you like an expert team to monitor and manage your security risks, fix your weaknesses, ensure your staff are aware of current threats and act if a threat occurs? Then why not THINK about BIT Security handling that for you?<br><br>
                 We make it our mission to keep your business secure, so you can focus on what is important. We ensure your business is safe in every sense from fraudulent access to your data, internal documents, your customer information, and network services.<br><br>
                 We do this by integrating software, delivering ongoing team training and physical on-site testing of your security.<br><br>
-                We a perfect fit for you? why not <a href="../Contact-Us.php">Contact us</a> and if you have any questions before you message, check out our FAQ Page!</p>
+                We a perfect fit for you? why not <a href="../Contact-Us.php">Contact us</a> and if you have any questions before you message, check out our <a href="../About/FAQ.php">FAQ Page!</a></p>
             </div>
             <img src="../../Media/General/looking-out-window.png" alt="Cyber Security" id="img-right">
         </div>

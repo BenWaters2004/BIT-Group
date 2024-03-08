@@ -50,7 +50,7 @@
         });
 
         $('#SecPackHover').mouseleave(function() {
-            $('#SecPackHover').slideUp('0.3s');
+            $('#SecPackHover').slideUp('fast');
         });
 
         $('.ServicesHover').mouseenter(function() {
@@ -60,7 +60,7 @@
         });
 
         $('#ServicesHover').mouseleave(function() {
-            $('#ServicesHover').slideUp('0.3s');
+            $('#ServicesHover').slideUp('fast');
         });
 
         $('.AboutHover').mouseenter(function() {
@@ -70,7 +70,13 @@
         });
 
         $('#AboutHover').mouseleave(function() {
-            $('#AboutHover').slideUp('0.3s');
+            $('#AboutHover').slideUp('fast');
+        });
+
+        $('.noHover').mouseenter(function() {
+            $('#SecPackHover').slideUp('fast');
+            $('#ServicesHover').slideUp('fast');
+            $('#AboutHover').slideUp('fast');
         });
     });
 
@@ -85,8 +91,8 @@
             <li><a href="#" class="SecPackHover">SECURITY PACKAGES</a></li>
             <li><a href="#" class="ServicesHover">SERVICES</a></li>
             <li><a href="#" class="AboutHover">ABOUT</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Contact-Us.php">CONTACT US</a></li>
+            <li><a href="#" class="noHover">NEWS</a></li>
+            <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Contact-Us.php" class="noHover">CONTACT US</a></li>
         </ul>
     </div>
     <ul class="hoverMenu SecPackHover" id="SecPackHover">
@@ -109,8 +115,8 @@
     <ul class="hoverMenu AboutHover" id="AboutHover">
         <li><p>Who is BIT Group?</p></li>
         <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/About/About-BIT-Security.php">About BIT Security</a></li>
-        <li><a href="#">Our Amazing Cyber Partners</a></li>
-        <li><a href="#">Our Cyber Technology Solutions</a></li>
-        <li><a href="#">Fast FAQs</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/About/Our-Partnerships.php">Our Amazing Cyber Partners</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/About/Our-Cyber-Technology-Solutions.php">Our Cyber Technology Solutions</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/About/FAQ.php">Fast FAQs</a></li>
     </ul>
 </div>

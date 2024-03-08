@@ -189,6 +189,9 @@
     line-height: 30px;
     font-weight: 600;
 }
+.hoverMenu a:hover {
+    color: var(--main);
+}
 
 
 .news-form {

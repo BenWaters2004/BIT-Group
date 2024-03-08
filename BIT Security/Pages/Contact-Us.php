@@ -10,11 +10,12 @@
     <link rel="apple-touch-icon" href="https://thinkbitsecurity.co.uk/wp-content/uploads/2023/01/cropped-BIT-secrity-favicon-512-×-512-px-1-180x180.png" />
     <meta name="msapplication-TileImage" content="https://thinkbitsecurity.co.uk/wp-content/uploads/2023/01/cropped-BIT-secrity-favicon-512-×-512-px-1-270x270.png" />
 
+    <!--Update these tags per page-->
     <meta name="geo.placename" content="Plymouth, Devon, England" />
     <meta name="description" content="Powered by the BIT Group">
     <title>Contact Us - BIT Security</title>
     <meta name="keywords" content="BIT, Bluescreen, Cyber Security, SOC, SIEM, Pentesting, South West, Cyber essentials, EDR, Phishing simulation, password management, pre  employment screening,  EDR" />
-    <meta name="description" content="BIT Cyber Security services provides you with swift, clear advice and an expert eye on your network to reduce the threat of cyber incidents. Find out more here"/>
+    <meta name="description" content="Contact us to find out what we can offer you today!"/>
 
     <!--Styling-->
     <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
