@@ -12,9 +12,9 @@
 
     <meta name="geo.placename" content="Plymouth, Devon, England" />
     <meta name="description" content="Powered by the BIT Group">
-    <title>Essentials Package</title>
-    <meta name="keywords" content="BIT, Bluescreen, Cyber Security, South West, Phishing simulation, threat, risk, security, awareness, training, anti-virus" />
-    <meta name="description" content="Businesses need to be proactive in their cyber security and the BIT Security Essentials Package is the perfect way to start."/>
+    <title>Extended Package</title>
+    <meta name="keywords" content="BIT, Bluescreen, Cyber Security, South West, Phishing simulation, threat, risk, security, awareness, training, anti-virus, EDR, response, password management" />
+    <meta name="description" content="Keep your business protected with our comprehensive cyber security Extended Package. This package contains all the tools in the Essentials Package plus Enterprise Level Password Management."/>
 
     <!--Styling-->
     <link rel="stylesheet" href="https://use.typekit.net/rbj1mem.css">
@@ -30,24 +30,21 @@
         <div class="OvalBanner"><!--Heading banner-->
             <div class="OvalBannerText" style="margin-top: 50px;">
                 <h1>Protect your business with a cyber security <br>
-                <span>Essentials Package</span></h1>
-                <p>Businesses need to be proactive in their cyber security and the BIT Security Essentials Package is the perfect way to start.</p>
+                <span>Extended Package</span></h1>
+                <p>BIT Security Extended Package adds password management allowing our team to see if passwords are compromised, too weak or reused.</p>
             </div>
-            <img src="../../Media/General/banner-ipad.png" alt="Essentials Cyber Security Package">
+            <img src="../../Media/General/banner-lady-leaning.png" alt="Essentials Cyber Security Package">
         </div>
 
         <div class="Title-TextBlock">
-            <h2>Be proactive with <br><span>your Cyber Security</span></h2>
-            <p>This essentials package provides just the right amount of robustness your business needs at a minimal cost. Secure critical areas of business risk, Endpoints, identities and people. Ensure your team are trained, aware of current and likely threats and are able to act, report and ensure your business and your data are kept safe. This package includes a variety of tools that will protect your business from attacks. We provide you with all the knowledge and support you need to stay safe online. 
+            <h2>Secure your passwords <br><span>to insure your data security</span></h2>
+            <p>Keep your business protected with our comprehensive cyber security Extended Package. This package contains all the tools in the Essentials Package plus Enterprise Level Password Management.
             <br><br>
-            - We integrate the software and manage the ongoing deployment.<br>
-            - We train your staff using Simulated Phishing Campaigns and trigger further training based on their responses.<br>
-            -We keep your team aware of security issues and types of scams to look out for.  
-            <br><br>
-            Cyber Security should not be considered an afterthought, but instead be seen as a proactive measure needed to protect online resources, customer data, and company information. </p>
+            This package secures the most critical areas of business risk. Staff training helps employees stay vigilant against malicious emails and phishing attempts. Secure critical areas of business risk, Endpoints, identities and people.. Our enterprise-level password management keeps your passwords safe and secure.<br><br>
+            You’ve heard about breaches and ransomware attacks, don’t let your business be next.</p>
         </div>
         <div class="FAQ" style="margin-bottom: -50px;">
-            <h2>Your Essentials Package<br>includes the following software</h2>
+            <h2>Your Extended Package<br>includes the following software</h2>
             <div class="dropdown" id="dropdown">
                 <h5>Next-Gen Anti-Virus</h5>
                 <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent1')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
@@ -77,6 +74,22 @@
                 <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent4')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
                 <div class="dropdownContent" id="dropdownContent4">
                     <p>This is a button integrated into your email client add-on that facilitates the reporting of suspected phishing emails. Your team can immediately share with us an email that they think is a Phish or potential threat. Keeping your team aware of threats and having an easy system in which they can report, check it is safe to open and ensure the safety of your organisation and data.</p><br><br>
+                </div>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+                <h5>Enterprise Level Password Management</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent5')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent5">
+                    <p>Your cyber security action plan should start with password security. Over 80% of data breaches are related to weak or stolen passwords. The password is often the only thing protecting confidential business plans, intellectual property and network access. Despite this employees and contractors often use weak passwords or reuse them.<br><br> We deploy a zero-trust password management platform. The software generates high-strength, random passwords and we will track security and compliance throughout your organisation. Implementing two-factor authentication and role-based enforcement policies helps keep businesses of any size safe from ransomware and other password-related data breaches.</p><br><br>
+                </div>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+                <h5>Endpoint Detection and Response</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent6')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent6">
+                    <p>Managed Next-Generation Anti-Virus and automated Incident Response for endpoints.</p><br><br>
                 </div>
             </div>
         </div>
@@ -114,10 +127,10 @@
             <h2>Perhaps consider one of these alternatives…</h2>
             <div class="blocks">
                 <div class="block">
-                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-fingerprint.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-one-01.svg" alt="">
                     <div class="CaraText">
-                        <h4>Extended - £18 per user per month</h4>
-                        <p>Level up the Essential plan with an enhanced version of password security. Secure all the digital endpoints in your business from laptops to payment devices easily and effectively.</p>
+                        <h4>Essentials - £14 per user per month</h4>
+                        <p>The minimum cyber security a business needs to implement to keep their data, people and communications safe. Keep spam emails at bay and ensure your team know how to spot a Phish.</p>
                     </div>
                     <a href="#" class="btn-outline">LEARN MORE</a>
                 </div>

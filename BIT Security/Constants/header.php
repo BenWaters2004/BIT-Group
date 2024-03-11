@@ -102,8 +102,8 @@
         <li><p>Our Packages</p></li>
         <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Package-Pricing.php">Cyber Security Packages</a></li>
         <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Essentials-Package.php">Essentials Package</a></li>
-        <li><a href="#">Extended Package</a></li>
-        <li><a href="#"> Quality Assured Package</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Extended-Package.php">Extended Package</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Assured-Package.php"> Quality Assured Package</a></li>
     </ul>
     <ul class="hoverMenu ServicesHover" id="ServicesHover">
         <li><p>What can we offer?</p></li>
