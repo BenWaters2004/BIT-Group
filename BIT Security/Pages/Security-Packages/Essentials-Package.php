@@ -33,7 +33,7 @@
                 <span>Essentials Package</span></h1>
                 <p>Businesses need to be proactive in their cyber security and the BIT Security Essentials Package is the perfect way to start.</p>
             </div>
-            <img src="../../Media/General/banner-ipad.png" alt="Essentials Cyber Security Package">
+            <img src="../../Media/Banners/banner-ipad.png" alt="Essentials Cyber Security Package">
         </div>
 
         <div class="Title-TextBlock">

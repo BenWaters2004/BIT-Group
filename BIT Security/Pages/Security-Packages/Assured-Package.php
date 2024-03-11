@@ -33,7 +33,7 @@
                 <span>Assured Package</span></h1>
                 <p>Assure your partners and clients of the strength of your cybersecurity measures. Our Assured Package offers comprehensive software and expert monitoring to ensure security across your entire business.</p>
             </div>
-            <img src="../../Media/General/banner-man-crossed-arms.png" alt="Essentials Cyber Security Package">
+            <img src="../../Media/Banners/banner-man-crossed-arms.png" alt="Essentials Cyber Security Package">
         </div>
 
         <div class="Title-TextBlock">

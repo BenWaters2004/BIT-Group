@@ -6,8 +6,8 @@
     </div>
     <div class="btm-nav">
         <ul>
-            <li><a href="#">CYBER SECURITY PACKAGES</a></li>
-            <li><a href="#">CYBER ESSENTIALS CERTIFICATION</a></li>
+            <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Package-Pricing.php">CYBER SECURITY PACKAGES</a></li>
+            <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Services/Cyber-Essentials-Certification.php">CYBER ESSENTIALS CERTIFICATION</a></li>
             <li><a href="#">PROACTIVE PENETRATION TESTING</a></li>
             <li><a href="#">ACHIEVE ISO 27001 COMPLIANCE</a></li>
             <li><a href="#">MANAGED DETECTION AND RESPONSE SERVICES</a></li>

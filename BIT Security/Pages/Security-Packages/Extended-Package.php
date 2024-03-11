@@ -33,7 +33,7 @@
                 <span>Extended Package</span></h1>
                 <p>BIT Security Extended Package adds password management allowing our team to see if passwords are compromised, too weak or reused.</p>
             </div>
-            <img src="../../Media/General/banner-lady-leaning.png" alt="Essentials Cyber Security Package">
+            <img src="../../Media/Banners/banner-lady-leaning.png" alt="Essentials Cyber Security Package">
         </div>
 
         <div class="Title-TextBlock">

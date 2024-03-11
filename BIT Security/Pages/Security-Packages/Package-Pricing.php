@@ -32,7 +32,7 @@
                 <h1>Our top security packages<br>
                 <span>one monthly price</span></h1>
             </div>
-            <img src="../../Media/General/banner-confused-computer.png" alt="Security Packages">
+            <img src="../../Media/Banners/banner-confused-computer.png" alt="Security Packages">
         </div>
 
         <div class="packageOptions" id="noMargins"> <!--Table of packages, not affected by tramlines, so that background colour goes the full width-->

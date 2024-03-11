@@ -32,7 +32,7 @@
                 <h1>BIT Security.<br>
                 <span>Your guide to cybersecurity excellence</span></h1>
             </div>
-            <img src="../../Media/General/employer-banner.png" alt="Contact Us">
+            <img src="../../Media/Banners/employer-banner.png" alt="Contact Us">
         </div>
 
         <div class="Title-TextBlock">

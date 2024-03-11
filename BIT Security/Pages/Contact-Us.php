@@ -36,7 +36,7 @@
                 <p>Please fill out the form below and we'll get the right team to get in touch with you shortly.<br><br>
                 If you have any questions please consider reading our <a href="#">FAQ page</a> first</p>
             </div>
-            <img src="../Media/General/employer-portrait.png" alt="Contact Us">
+            <img src="../Media/Banners/employer-portrait.png" alt="Contact Us">
         </div>
 
         <?php require("../Constants/contactForm.php"); //adds contact form?>
