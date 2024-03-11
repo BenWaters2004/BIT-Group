@@ -100,8 +100,8 @@
     <!--Appears when respective nav option is hovered over-->
     <ul class="hoverMenu SecPackHover" id="SecPackHover">
         <li><p>Our Packages</p></li>
-        <li><a href="#">Cyber Security Packages</a></li>
-        <li><a href="#">Essentials Package</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Package-Pricing.php">Cyber Security Packages</a></li>
+        <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Essentials-Package.php">Essentials Package</a></li>
         <li><a href="#">Extended Package</a></li>
         <li><a href="#"> Quality Assured Package</a></li>
     </ul>

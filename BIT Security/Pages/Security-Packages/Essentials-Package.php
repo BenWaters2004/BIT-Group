@@ -29,115 +29,61 @@
     <div class="margins"> <!--Adds tramlines to the side of the page-->
         <div class="OvalBanner"><!--Heading banner-->
             <div class="OvalBannerText">
-                <h1>Our top security packages<br>
-                <span>one monthly price</span></h1>
+                <h1>Protect your business with a cyber security <br>
+                <span>Essentials Package</span></h1>
+                <p>Businesses need to be proactive in their cyber security and the BIT Security Essentials Package is the perfect way to start.</p>
             </div>
-            <img src="../../Media/General/banner-confused-computer.png" alt="Security Packages">
+            <img src="../../Media/General/banner-ipad.png" alt="Essentials Cyber Security Package">
         </div>
 
-        <div class="packageOptions" id="noMargins"> <!--Table of packages, not affected by tramlines, so that background colour goes the full width-->
-            <h3>OUR TOP SECURITY PRODUCTS – ONE MONTHLY PRICE</h3>
-            <h2>Monitored and Managed by BIT Security</h2>
-            <table id="packagesTable">
-                <tr>
-                    <th style="background-color: white; border: none;"></th>
-                    <th style="width: 150px;">Essentials</th>
-                    <th style="width: 150px;">Extended</th>
-                    <th style="width: 150px;">Assured</th>
-                </tr>
-                <tr>
-                    <td>Next-generation anti-virus</td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Phish alert button to report</td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Simulated phishing campaigns</td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Bespoke security awareness</td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Password management solution (personal)</td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Threat hunting of events and activity</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Enterprise-level password management</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Email filtering, automatic quarantine of spam</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Endpoint Detection and Response</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Microsoft OneDrive backup for all user accounts</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Microsoft Sharepoint Backup</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <td>Cyber Essentials Basic</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                    <td><i class="fa-solid fa-check"></i></td>
-                </tr>
-                <tr>
-                    <th style="background-color: white; border: none;"></th>
-                    <th style="line-height: 40px;"><a href="#" class="btn-outlineFlip">Learn More</a></th>
-                    <th><a href="#" class="btn-outlineFlip">Learn More</a></th>
-                    <th><a href="#" class="btn-outlineFlip">Learn More</a></th>
-                </tr>
-            </table>
+        <div class="Title-TextBlock">
+            <h2>Be proactive with <br><span>your Cyber Security</span></h2>
+            <p>This essentials package provides just the right amount of robustness your business needs at a minimal cost. Secure critical areas of business risk, Endpoints, identities and people. Ensure your team are trained, aware of current and likely threats and are able to act, report and ensure your business and your data are kept safe. This package includes a variety of tools that will protect your business from attacks. We provide you with all the knowledge and support you need to stay safe online. 
+            <br><br>
+            - We integrate the software and manage the ongoing deployment.<br>
+            - We train your staff using Simulated Phishing Campaigns and trigger further training based on their responses.<br>
+            -We keep your team aware of security issues and types of scams to look out for.  
+            <br><br>
+            Cyber Security should not be considered an afterthought, but instead be seen as a proactive measure needed to protect online resources, customer data, and company information. </p>
         </div>
-
-        <div class="Carousel" id="noMargins"> <!--noMargins so that the background colour covers full width-->
-            <h3>CHOOSE YOUR</h3>
-            <h2>Security package here</h2>
-            <div class="blocks">
-                <div class="block">
-                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-one-01.svg" alt="">
-                    <div class="CaraText">
-                        <h4>Essentials - £14 per user per month</h4>
-                        <p>The minimum cyber security a business needs to implement to keep their data, people and communications safe. Keep spam emails at bay and ensure your team know how to spot a Phish.</p>
-                    </div>
-                    <a href="#" class="btn-outline">LEARN MORE</a>
+        <div class="FAQ" style="margin-bottom: -50px;">
+            <h2>Your Essentials Package<br>includes the following software</h2>
+            <div class="dropdown" id="dropdown">
+                <h5>Next-Gen Anti-Virus</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent1')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent1">
+                    <p>We deploy CrowdStrike which uses world-class AI, the CrowdStrike Security Cloud identifies shifts in adversarial tactics, to automatically prevent threats in real-time, keeping you ahead of today’s threats and stop a breach. CrowdStrike uniquely uses behaviour-based identifiers to stop all forms of malware.</p><br><br>
+                    <a href="https://www.crowdstrike.com/products/endpoint-security/falcon-prevent-antivirus/">Find out more</a>
                 </div>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+                <h5>Simulated Phishing Campaigns</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent2')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent2">
+                    <p>We integrate KnowBe4, sending simulated phishing campaigns to your team, testing their awareness regularly and ensuring they are looking out for phishing emails with threat-based links/files.</p><br><br>
+                </div>
+            </div>
+            <div class="dropdown" id="dropdown">
+                <h5>Bespoke Security Awareness</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent3')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent3">
+                    <p>Our team utilises KnowBe4 creating a 12 month schedule of training curating professionally crafted training modules, videos games and assessments to keep your team engaged, interested and aware of the latest threats. This process improves security culture in your organisation, raises awareness of common attack vectors and reduces the risk of the number 1 method of attack.</p><br><br>
+                </div>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+                <h5>Phish Button to Report</h5>
+                <a class="dropdown-toggle" onclick="toggleDropdown('dropdownContent4')">Expand <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <div class="dropdownContent" id="dropdownContent4">
+                    <p>This is a button integrated into your email client add-on that facilitates the reporting of suspected phishing emails. Your team can immediately share with us an email that they think is a Phish or potential threat. Keeping your team aware of threats and having an easy system in which they can report, check it is safe to open and ensure the safety of your organisation and data.</p><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="Carousel" id="noMargins"> <!--noMargins so that the background colour covers full width-->
+            <h3>DO YOU AND YOUR BUSINESS NEED MORE SUPPORT?</h3>
+            <h2>Perhaps consider one of these alternatives…</h2>
+            <div class="blocks">
                 <div class="block">
                     <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-fingerprint.svg" alt="">
                     <div class="CaraText">
@@ -192,5 +138,6 @@
     </div>
 
     <?php require("../../Constants/footer.php"); //adds footer?>
+    <script src="../../Java.js"></script> <!--Javascript for the opening of each dropdown-->
 </body>
 </html>

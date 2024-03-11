@@ -32,7 +32,7 @@
                 <h1>Our Award Winning<br>
                 <span>Cyber Technology Solutions</span></h1>
             </div>
-            <img src="../../Media/General/banner-arms-crossed.png" alt="Soultions" style="margin-left: 42.9%;">
+            <img src="../../Media/General/banner-arms-crossed.png" alt="Soultions">
         </div>
 
         <div class="Title-TextBlock">

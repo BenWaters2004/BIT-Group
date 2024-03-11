@@ -86,8 +86,10 @@ body {
 }
 .OvalBanner img {
     height: 100%;
-    width: auto;
-    margin-left: 42%;
+    width: 60%;
+    position: absolute;
+    margin-left: 40%;
+    
 }
 .OvalBanner h1 {
     font-family: "Obvia Narrow", sans-serif;
@@ -194,6 +196,20 @@ body {
 }
 .btn-outline:hover {
     background-color: white;
+}
+
+.btn-outlineFlip {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: "Bliss Pro";
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    padding: 12px 30px;
+    font-weight: 900;
+    border-radius: 60px;
+    cursor: pointer;
 }
 
 /*btn - solid background white text*/
@@ -375,15 +391,16 @@ body {
     left: 15%;
     border-radius: 15px;
     margin-bottom: 50px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 3px 3px gray;
     transition: all 0.3s;
 }
 .dropdown h5 {
     font-family: "Obvia Narrow", sans-serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
+    line-height: 25px;
     color: var(--accent);
-    margin-top: 32.5px;
+    margin-top: 41.5px;
     margin-left: 5%;
 }
 .dropdown-toggle {
@@ -430,12 +447,27 @@ body {
 .dropdownContent p span {
 color: var(--main);
 }
+.dropdownContent a {
+    color: darkslategray;
+    font-weight: 900;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
 .FAQ {
     background-color: var(--background);
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%;
     height: auto;
+}
+.FAQ H2 {
+    text-align: center;
+    color: var(--accent);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 50px;
 }
 
 /*---------------------Text Blocks & image Designs-------------------------*/
@@ -588,9 +620,10 @@ color: var(--main);
 
 
 #packagesTable {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Obvia Narrow", sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
 }
 #packagesTable td, #packagesTable th {
     border: 1px solid #ddd;
@@ -603,10 +636,20 @@ padding-bottom: 12px;
 text-align: left;
 background-color: var(--main);
 color: white;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+}
+#packagesTable td {
+    color: var(--text);
+    font-size: 17px;
 }
 #packagesTable td i {
     width: 100%;
     text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+
 }
 .fa-check {
     color: green;

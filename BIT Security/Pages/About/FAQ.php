@@ -33,7 +33,7 @@
                 <span>asked questions (FAQs)</span></h1>
                 <p>We are BIT Security, a company focused on ensuring your business has effective cyber security. We cover all security aspects from Cyber Essentials, ISO27001, to implementation and management of your email, network and data security. We consistently train your team to be aware of the latest threats and support your organisation to ensure you have the proper protocols and protection to remain secure.</p>
             </div>
-            <img src="../../Media/General/banner-guy-laptop.png" alt="Questions" style="margin-left: 43.2%;">
+            <img src="../../Media/General/banner-guy-laptop.png" alt="Questions">
         </div>
 
         <div class="FAQ">
