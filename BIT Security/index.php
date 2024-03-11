@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="CSS/global.css">
     
     <?php 
-    require("Constants/header.php");
+    require("Constants/header.php"); //adds header
     ?>
 </head>
 <body>
-    <div class="margins">
-        <div class="homeBanner">
+    <div class="margins"> <!--Adds tramlines to the side of the page-->
+        <div class="homeBanner"><!--Heading banner-->
             <div class="homeBannerText">
                 <h1>Protect your business <br><span>with our cyber security expertise</span></h1>
                 <p>BIT Cyber Security services provides you with swift, clear advice and an expert eye on your network to reduce the threat of cyber incidents ensuring your business systems remain operational and your data safe.</p>
@@ -71,7 +71,7 @@
                     <a href="#" class="btn-outline">MORE</a>
                 </div>
             </div>
-            <div class="controls">
+            <div class="controls"> <!--Will allow user to scroll through items in the carousel-->
                 
             </div>
         </div>
@@ -103,7 +103,7 @@
 
     <?php require("Constants/footer.php");?>
 
-    <script>
+    <script> //animates stats container counting up when it is scrolled over
         (function($) {
             $.fn.animateNumbers = function(stop, commas, duration, ease) {
                 return this.each(function() {
@@ -132,15 +132,15 @@
         var options = {
             root: null,
             rootMargin: '0px',
-            threshold: 0.5 // Change the threshold as needed
+            threshold: 0.5
         };
 
         var observer = new IntersectionObserver(function(entries, observer) {
             entries.forEach(function(entry) {
                 if (entry.isIntersecting) {
-                    $('#num100').animateNumbers(100, true, 4000); // Adjust the duration here
-                    $('#num50000').animateNumbers(50000, true, 4000); // Adjust the duration here
-                    $('#num20').animateNumbers(20, true, 4000); // Adjust the duration here
+                    $('#num100').animateNumbers(100, true, 4000);
+                    $('#num50000').animateNumbers(50000, true, 4000);
+                    $('#num20').animateNumbers(20, true, 4000);
                     observer.unobserve(entry.target);
                 }
             });
@@ -150,4 +150,4 @@
         observer.observe(document.getElementById('stats-container'));
     </script>
 </body>
-</html>;
+</html>

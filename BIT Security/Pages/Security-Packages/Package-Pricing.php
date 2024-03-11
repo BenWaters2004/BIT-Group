@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="../../CSS/header+footer.css">
     
     <?php 
-    require("../../Constants/header.php");
+    require("../../Constants/header.php"); //adds header
     ?>
 </head>
 <body>
-    <div class="margins">
-        <div class="OvalBanner">
+    <div class="margins"> <!--Adds tramlines to the side of the page-->
+        <div class="OvalBanner"><!--Heading banner-->
             <div class="OvalBannerText">
                 <h1>Our top security packages<br>
                 <span>one monthly price</span></h1>
@@ -35,9 +35,9 @@
             <img src="../../Media/General/banner-confused-computer.png" alt="Security Packages" style="margin-left: 42.9%;">
         </div>
 
-        <div class="packageOptions" id="noMargins">
-            <h3></h3>
-            <h2></h2>
+        <div class="packageOptions" id="noMargins"> <!--Table of packages, not affected by tramlines, so that background colour goes the full width-->
+            <h3>OUR TOP SECURITY PRODUCTS – ONE MONTHLY PRICE</h3>
+            <h2>Monitored and Managed by BIT Security</h2>
             <table id="packagesTable">
                 <tr>
                     <th></th>
@@ -120,7 +120,7 @@
             </table>
         </div>
 
-        <div class="Carousel" id="noMargins">
+        <div class="Carousel" id="noMargins"> <!--noMargins so that the background colour covers full width-->
             <h3>CHOOSE YOUR</h3>
             <h2>Security package here</h2>
             <div class="blocks">
@@ -149,7 +149,7 @@
                     <a href="#" class="btn-outline">MORE</a>
                 </div>
             </div>
-            <div class="controls">
+            <div class="controls"> <!--Will allow user to scroll through items in the carousel-->
                 
             </div>
         </div>
@@ -182,9 +182,9 @@
             </div>
         </div>
 
-        <?php require("../../Constants/contactForm.php");?>
+        <?php require("../../Constants/contactForm.php"); //adds contact form?>
     </div>
 
-    <?php require("../../Constants/footer.php");?>
+    <?php require("../../Constants/footer.php"); //adds footer?>
 </body>
 </html>

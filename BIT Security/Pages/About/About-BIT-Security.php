@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="../../CSS/header+footer.css">
     
     <?php 
-    require("../../Constants/header.php");
+    require("../../Constants/header.php"); //adds header
     ?>
 </head>
 <body>
-    <div class="margins">
-        <div class="OvalBanner">
+    <div class="margins"> <!--Adds tramlines to the side of the page-->
+        <div class="OvalBanner"><!--Heading banner-->
             <div class="OvalBannerText">
                 <h1>BIT Security.<br>
                 <span>Your guide to cybersecurity excellence</span></h1>
@@ -44,6 +44,7 @@
             Our security experts have diverse experiences in the field of cyber security from SOC and SIEM operations, pen testing networks and applications, creating bespoke Secure Networks, implementing ISO 27001, performing open-source threat intelligence, identifying over 45,000 indicators of compromise, running simulated phishing attacks and provide strategic security advice to MoD requirements.</p>
         </div>
 
+        <!--Links to other BIT group sites-->
         <div class="BITgroup">
             <a href="https://www.bluescreenit.co.uk/"><img width="300px" src="../../Media/logos/BIT Group.png" alt="BIT Group"></a>
             <a href="https://thinkbittraining.co.uk/"><img width="300px" src="../../Media//logos/BIT Training.png" alt="BIT Training"></a>
@@ -107,14 +108,15 @@
             </div>
         </div>
 
+        <!--BIT video, autoplays, video link removed on github as the video file is too large-->
         <video width="100%" height="auto" controls autoplay>
             <source src="../../Media/BIT-About-Video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
-        <?php require("../../Constants/contactForm.php");?>
+        <?php require("../../Constants/contactForm.php"); //adds contact form?>
     </div>
 
-    <?php require("../../Constants/footer.php");?>
+    <?php require("../../Constants/footer.php"); //adds footer?>
 </body>
 </html>

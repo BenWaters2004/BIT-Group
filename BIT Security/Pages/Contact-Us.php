@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="../CSS/Main.css">
     
     <?php 
-    require("../Constants/header.php");
+    require("../Constants/header.php"); //adds header
     ?>
 </head>
 <body>
-    <div class="margins">
-        <div class="OvalBanner">
+    <div class="margins"> <!--Adds tramlines to the side of the page-->
+        <div class="OvalBanner"><!--Heading banner-->
             <div class="OvalBannerText">
                 <h2>Start the <br>conversation</h2>
                 <h1>Contact us and see what we can offer.</h1>
@@ -39,7 +39,7 @@
             <img src="../Media/General/employer-portrait.png" alt="Contact Us">
         </div>
 
-        <?php require("../Constants/contactForm.php");?>
+        <?php require("../Constants/contactForm.php"); //adds contact form?>
 
         <div class="image-container"></div>
         <div class="Locations">
@@ -97,9 +97,7 @@
         </div>
     </div>
 
-    <?php require("../Constants/footer.php");?>
-    <script src="../Java.js"></script>
+    <?php require("../Constants/footer.php"); //adds footer?>
+    <script src="../Java.js"></script> <!--Javascript for dropdown functionality-->
 </body>
 </html>
-
-<!-- <i class="fa-solid fa-chevron-down"></i> -->

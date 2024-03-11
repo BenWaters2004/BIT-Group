@@ -2,6 +2,7 @@
 <script src="https://kit.fontawesome.com/7732d65683.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+<!--Javascript for displaying nav menu and chaging logo on scroll-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     function sleep(ms) {
@@ -42,6 +43,7 @@
         });
     });
 
+    //adds nav menu when hovered over
     $(document).ready(function() {
         $('.SecPackHover').mouseenter(function() {
             $('#ServicesHover').hide();
@@ -79,7 +81,6 @@
             $('#AboutHover').slideUp('fast');
         });
     });
-
 </script>
 
 
@@ -95,6 +96,8 @@
             <li><a href="http://localhost/BIT-Group/BIT%20Security/Pages/Contact-Us.php" class="noHover">CONTACT US</a></li>
         </ul>
     </div>
+
+    <!--Appears when respective nav option is hovered over-->
     <ul class="hoverMenu SecPackHover" id="SecPackHover">
         <li><p>Our Packages</p></li>
         <li><a href="#">Cyber Security Packages</a></li>

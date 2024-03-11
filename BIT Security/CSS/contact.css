@@ -7,6 +7,8 @@
     margin-top: 110px;
     margin-bottom: 110px;
 }
+
+/*Text section of contact form*/
 .text {
     flex: 1;
     max-width: 40%;
@@ -35,7 +37,7 @@
     color: var(--text);
 }
 
-
+/*Form section of contact form*/
 .form {
     flex: 1;
     margin-left: 12%;

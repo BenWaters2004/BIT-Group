@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="../../CSS/header+footer.css">
     
     <?php 
-    require("../../Constants/header.php");
+    require("../../Constants/header.php"); //adds header
     ?>
 </head>
 <body>
-    <div class="margins">
-        <div class="OvalBanner">
+    <div class="margins"> <!--Adds tramlines to the side of the page-->
+        <div class="OvalBanner"><!--Heading banner-->
             <div class="OvalBannerText">
                 <h1><br><br>Frequently
                 <span>asked questions (FAQs)</span></h1>
@@ -104,10 +104,10 @@
         </div>
 
 
-        <?php require("../../Constants/contactForm.php");?>
+        <?php require("../../Constants/contactForm.php"); //adds contact form?>
     </div>
 
-    <?php require("../../Constants/footer.php");?>
-    <script src="../../Java.js"></script>
+    <?php require("../../Constants/footer.php"); //adds footer?>
+    <script src="../../Java.js"></script> <!--Javascript for the opening of each question dropdown-->
 </body>
 </html>

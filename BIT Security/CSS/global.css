@@ -259,13 +259,13 @@ body {
     line-height: 20px;
     color: var(--text);
 }
-.Carousel .blocks {
+.Carousel .blocks, .Stats .blocks {
     display: flex;
     width: 100%;
     height: auto;
 
 }
-.Carousel .block {
+.Carousel .block, .Stats .block {
     flex: 0 0 33.33%;
     text-align: center;
 }
@@ -586,6 +586,7 @@ color: var(--main);
     align-items: center;
 }
 
+
 #packagesTable {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -603,9 +604,31 @@ text-align: left;
 background-color: var(--main);
 color: white;
 }
+#packagesTable td i {
+    width: 100%;
+    text-align: center;
+}
 .fa-check {
     color: green;
 }
 .fa-xmark {
     color: red;
+}
+.packageOptions h3 {
+    text-align: center;
+    color: var(--main);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 75px;
+}
+.packageOptions h2 {
+    text-align: center;
+    color: var(--accent);
+    font-family: "Obvia Narrow", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 42px;
+    margin-bottom: 50px;
 }
