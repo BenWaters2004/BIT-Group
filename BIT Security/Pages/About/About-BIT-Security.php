@@ -56,16 +56,16 @@
             <div class="text">
                 <h2>BIT Security have a history of supporting<br><span>businesses in the UK…</span></h2><br>
                 <p>In the following sectors:<br>
-                    - Manufacturers<br>
-                    - Not for Profits<br>
-                    - Schools/ Colleges<br>
-                    - Organisations with smaller IT teams<br>
-                    - Housing Associations<br>
-                    - MoD Supply Chain<br>
-                    - Aerospace<br>
-                    - Marine<br>
-                    - Motor Dealers<br>
-                    - Software Development and Tech Companies</p>
+                    • Manufacturers<br>
+                    • Not for Profits<br>
+                    • Schools/ Colleges<br>
+                    • Organisations with smaller IT teams<br>
+                    • Housing Associations<br>
+                    • MoD Supply Chain<br>
+                    • Aerospace<br>
+                    • Marine<br>
+                    • Motor Dealers<br>
+                    • Software Development and Tech Companies</p>
             </div>
         </div>
 

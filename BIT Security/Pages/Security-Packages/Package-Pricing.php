@@ -131,28 +131,28 @@
             <h2>Security package here</h2>
             <div class="blocks">
                 <div class="block">
-                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-one-01.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/logos/Essentials-Package.webp" alt="Essentials">
                     <div class="CaraText">
                         <h4>Essentials - £14 per user per month</h4>
                         <p>The minimum cyber security a business needs to implement to keep their data, people and communications safe. Keep spam emails at bay and ensure your team know how to spot a Phish.</p>
                     </div>
-                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Essentials-Package.php" class="btn-outline">LEARN MORE</a>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-fingerprint.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/logos/Extended-Package.webp" alt="Extended">
                     <div class="CaraText">
                         <h4>Extended - £18 per user per month</h4>
                         <p>Level up the Essential plan with an enhanced version of password security. Secure all the digital endpoints in your business from laptops to payment devices easily and effectively.</p>
                     </div>
-                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Extended-Package.php" class="btn-outline">LEARN MORE</a>
                 </div>
                 <div class="block">
-                    <img src="http://localhost/BIT-Group/BIT Security\Media\Carousel-Icons\BIT-red-phone.svg" alt="">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/logos/Quality-Assured-Package.webp" alt="Quality Assured">
                     <div class="CaraText">
                         <h4>Assured - £28 per user per month</h4>
                         <p>Secure all your devices, people, data and endpoints and include 24-hour monitoring along with OneDrive Back-up. The Assured packages means your data is always safe and can be restored.</p>
                     </div>
-                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <a href="http://localhost/BIT-Group/BIT%20Security/Pages/Security-Packages/Assured-Package.php" class="btn-outline">LEARN MORE</a>
                 </div>
             </div>
             <div class="controls"> <!--Will allow user to scroll through items in the carousel-->

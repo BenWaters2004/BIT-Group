@@ -70,6 +70,14 @@ body {
     margin-right: 100px;
 }
 
+#noMargins {
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 100px 100px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
 /*---------------------Banner Designs-------------------------*/
 
 /*Banner design 1*/
@@ -139,7 +147,7 @@ body {
 /*Banner Design 2*/
 .homeBanner {
     position: relative;
-    background-image: url("../Media/General/banner-1-work-scaled.jpg");
+    background-image: url("../Media/Banners/banner-1-work-scaled.jpg");
     width: 100%;
     height: 550px;
     background-position: center;
@@ -233,10 +241,6 @@ body {
 
 /*---------------------Carousel Designs-------------------------*/
 .Carousel {
-    margin-left: -100px;
-    margin-right: -100px;
-    padding: 100px 100px;
-    width: 100%;
     height: max-content;
     background-color: var(--background);
 }
@@ -620,8 +624,8 @@ color: var(--main);
 #packagesTable {
     font-family: "Obvia Narrow", sans-serif;
     border-collapse: collapse;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
 }
 #packagesTable td, #packagesTable th {
     border: 1px solid #ddd;
