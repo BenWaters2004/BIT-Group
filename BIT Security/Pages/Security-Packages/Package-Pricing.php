@@ -40,7 +40,7 @@
             <h2>Monitored and Managed by BIT Security</h2>
             <table id="packagesTable">
                 <tr>
-                    <th style="background-color: white; border: none;"></th>
+                    <th style="background-color: var(--background); border: none;"></th>
                     <th style="width: 150px;">Essentials</th>
                     <th style="width: 150px;">Extended</th>
                     <th style="width: 150px;">Assured</th>
@@ -118,7 +118,7 @@
                     <td><i class="fa-solid fa-check"></i></td>
                 </tr>
                 <tr>
-                    <th style="background-color: white; border: none;"></th>
+                    <th style="background-color: var(--background); border: none;"></th>
                     <th style="line-height: 40px;"><a href="#" class="btn-outlineFlip">Learn More</a></th>
                     <th><a href="#" class="btn-outlineFlip">Learn More</a></th>
                     <th><a href="#" class="btn-outlineFlip">Learn More</a></th>

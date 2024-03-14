@@ -187,6 +187,76 @@
             </div>
         </div>
 
+        <div class="Carousel" id="noMargins"> <!--noMargins so that the background colour covers full width-->
+            <h3>BY CHOOSING BIT SECURITY,</h3>
+            <h2>you are supporting us to:</h2>
+            <div class="blocks">
+                <div class="block">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/Carousel-Icons/BIT-red-one-01.svg" alt="Inclusive">
+                    <div class="CaraText">
+                        <h4>Make Cybersecurity Inclusive</h4>
+                        <p>We created our own internal cyber apprenticeship programmes to break down barriers and empower individuals from all walks of life to get into cyber.</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/Carousel-Icons/BIT-red-phone.svg" alt="MoD">
+                    <div class="CaraText">
+                        <h4>Employ MoD Service Leavers &#038; Veterans</h4>
+                        <p>We proactively employ and provide work experience opportunities for MoD Service Leavers and Veterans to help individuals transition into the cyber.</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/Carousel-Icons/Artboard-5.svg" alt="Community">
+                    <div class="CaraText">
+                        <h4>Create a Community Approach</h4>
+                        <p>Working collaboratively to create affordable training and tech solutions to build stronger cyber defences for charities &#038; schools.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="controls"> <!--Will allow user to scroll through items in the carousel-->
+                
+            </div>
+        </div>
+
+        <div class="Title-TextBlock">
+            <h2><span>Don’t wait for a cyberattack to be your wake-up call.</span></h2>
+            <p><span>Join the Cyber Essentials movement and build a safer, more trusted future for your organisation. The choice is yours.</span><br><br><a href="#" class="btn-outline">Contact Us</a></p>
+        </div>
+
+        <div class="Carousel" id="noMargins"> <!--noMargins so that the background colour covers full width-->
+            <h3>CONSIDERING YOUR COMPLIANCE OR TESTING OPTIONS</h3>
+            <h2>we have a range of services to support you</h2>
+            <div class="blocks">
+                <div class="block">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/General/ISO27001-Certified-1.png" alt="ISO 27001">
+                    <div class="CaraText">
+                        <h4>ISO 27001</h4>
+                        <p>Whether you’re a new organisation seeking ISO 27001 certification or an existing organisation transitioning from ISO 27001 (2013) to ISO 27001 (2022), our experienced team is here to guide you every step of the way.</p>
+                        <a href="#" class="btn-outline">SEE MORE</a>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/General/Penetration-Test.png" alt="Pentest">
+                    <div class="CaraText">
+                        <h4>Pen Testing</h4>
+                        <p>Penetration testing, often referred to as “pen testing,” is a security testing methodology used to identify and exploit vulnerabilities in computer systems, networks, applications, and devices.</p>
+                        <a href="#" class="btn-outline">SEE MORE</a>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="http://localhost/BIT-Group/BIT%20Security/Media/General/MDR-vs-NDR.png" alt="Security Bundles">
+                    <div class="CaraText">
+                        <h4>Security Bundles</h4>
+                        <p>Our packages have been designed to give you peace of mind that your people and technology are protected from all threats. The Assured bundle also includes a NCSC backed security certificate for your a requirements.</p>
+                        <a href="#" class="btn-outline">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="controls"> <!--Will allow user to scroll through items in the carousel-->
+                
+            </div>
+        </div>
+
         <?php require("../../Constants/contactForm.php"); //adds contact form?>
     </div>
 
