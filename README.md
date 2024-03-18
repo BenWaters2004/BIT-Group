@@ -11,8 +11,6 @@ Languages/Markup Languages used:
 ## BIT-Group (BluescreenIT)
 https://bluescreenit.co.uk
 
-BIT Group is the overarching company containing BIT Training and BIT Securtiy.
-
 ## BIT-Security
 https://thinkbitsecurity.co.uk
 
